@@ -27,8 +27,8 @@ var Input = function () {
             ].join("\n\n");
             fs.appendFile("log.txt", showData + divider, function (err) {
                 if (err) throw err;
-                console.log(showData);
               });
+              console.log(showData);
         });
 
     };
@@ -47,8 +47,8 @@ var Input = function () {
                 ].join("\n\n")
                 fs.appendFile("log.txt", showData + divider, function (err) {
                     if (err) throw err;
-                    console.log(showData);
                   });
+                  console.log(showData);
 
             })
             .catch(function (err) {
@@ -75,8 +75,8 @@ var Input = function () {
 
             fs.appendFile("log.txt", showData + divider, function (err) {
                 if (err) throw err;
-                console.log(showData);
               });
+              console.log(showData);
         });
     }
 

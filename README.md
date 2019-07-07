@@ -36,10 +36,24 @@ Once the user has input all the data, the app stops.
     -the app runs through the data in the api's
     -the information is printed in the console and log.txt file
 
-4.
+4.Link to screenshots: 
+###concert-this:
+![concert-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot1.png)
+
+![movie-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot2.png)
+
+![spotify-this-song](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot3.png)
+
+![do-what-it-says](/Users/griffincriste/Desktop/liri-node-app/images/screenshot4.png)
+
+![random txt](/Users/griffincriste/Desktop/liri-node-app/images/screenshot5.png)
+
+![log txt](/Users/griffincriste/Desktop/liri-node-app/images/screenshot6.png)
 
 
 
+
+5. link : https://gcriste.github.io/liri-node-app/
 
 
 

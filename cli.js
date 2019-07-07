@@ -12,7 +12,6 @@ var specifics = process.argv.slice(3).join(" ")
 
 if (command === "concert-this") {
     input.concertThis(specifics)
-    console.log("concert functional")
 };
 
 if (command === "spotify-this-song") {
@@ -24,7 +23,7 @@ if (command === "spotify-this-song") {
         specifics = "The Sign";
         input.spotifySong(specifics)
     }
-    console.log("spotify functional")
+    
 };
 
 if (command === "movie-this") {
@@ -36,11 +35,11 @@ if (command === "movie-this") {
     else if (!specifics) {
         specifics = "Mr. Nobody"
         input.movieThis(specifics)
-        console.log("movie functional")
+       
     }
 };
 
 if (command === "do-what-it-says") {
     input.doThis(specifics)
-    console.log("this is functional")
+
 };
