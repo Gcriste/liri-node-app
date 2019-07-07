@@ -3,6 +3,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api')
 var spotify = new Spotify(keys.spotify);
+var moment = require('moment')
 
 var axios = require("axios");
 var fs = require("fs");
@@ -18,11 +19,11 @@ var Input = function () {
         var URL = "https://rest.bandsintown.com/artists/" + band + "/events?app_id=codingbootcamp";
         axios.get(URL).then(function (response) {
             var results = response.data[0];
-
+            var date = moment(results.datetime).format("MM/DD/YYYY")
             var showData = [
                 "Name of Venue: " + results.venue.name,
                 "Venue Location: " + results.venue.city + ", " + results.venue.country,
-                "Date of Event: " + results.datetime
+                "Date of Event: " + date
             ].join("\n\n");
             fs.appendFile("log.txt", showData + divider, function (err) {
                 if (err) throw err;
