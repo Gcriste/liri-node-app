@@ -37,7 +37,7 @@ Once the user has input all the data, the app stops.
     -the information is printed in the console and log.txt file
 
 4.Link to screenshots: 
-###concert-this:
+
 ![concert-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot1.png)
 
 ![movie-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot2.png)
