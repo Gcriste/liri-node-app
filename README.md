@@ -37,3 +37,14 @@ Once the user has input all the data, the app stops.
     -the information is printed in the console and log.txt file
 
 4.
+
+
+
+
+
+
+6. technologies
+    Javascript, node, spotify-api, axios, omdb api, bands in town api, moment, dotenv
+
+
+7. I am  the sole creator and developer of this app
