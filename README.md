@@ -38,17 +38,19 @@ Once the user has input all the data, the app stops.
 
 4.Link to screenshots: 
 
-![concert-this](images/Screenshot1.png)
+![main-menu](images/ScreenshotMain.png)
 
-![movie-this](images/Screenshot2.png)
+![concert-this](images/ScreenshotConcert.png)
 
-![spotify-this-song](images/Screenshot3.png)
+![movie-this](images/ScreenshotMovie.png)
 
-![do-what-it-says](images/screenshot4.png)
+![spotify-this-song](images/ScreenshotSong.png)
 
-![random txt](images/screenshot5.png)
+![do-what-it-says](images/ScreenShotdowhatitsaysThematrix.png)
 
-![log txt](images/screenshot6.png)
+![random txt](images/screenshotrandomtxt.png)
+
+![log txt](images/screenshotlogtxt.png)
 
 
 

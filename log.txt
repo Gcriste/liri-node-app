@@ -313,3 +313,53 @@ Plot: A computer hacker learns from mysterious rebels about the true nature of h
 Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
 ------------------------------------------------------------
 
+Title: Toy Story
+
+Year: 1995
+
+IMDB Rating: 8.3/10
+
+Rotten Tomatoes Rating: 100%
+
+Country of Production: USA
+
+Language: USA
+
+Plot: A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.
+
+Actors: Tom Hanks, Tim Allen, Don Rickles, Jim Varney
+------------------------------------------------------------
+
+Artist: Jimi Hendrix
+
+Song Title : All Along the Watchtower
+
+Preview Link From Spotify: https://p.scdn.co/mp3-preview/5eec2933740ab3984340d5f004813f8275e1bb97?cid=ea0e3cf7b5a14bd5a3433cbc9f8b0239
+
+Album : Electric Ladyland
+------------------------------------------------------------
+
+Name of Venue: Sprint Center
+
+Venue Location: Kansas City, United States
+
+Date of Event: 07/11/2019
+------------------------------------------------------------
+
+Title: The Matrix
+
+Year: 1999
+
+IMDB Rating: 8.7/10
+
+Rotten Tomatoes Rating: 88%
+
+Country of Production: USA
+
+Language: USA
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+------------------------------------------------------------
+
