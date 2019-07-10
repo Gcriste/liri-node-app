@@ -38,7 +38,7 @@ Once the user has input all the data, the app stops.
 
 4.Link to screenshots: 
 
-![concert-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot1.png)
+![concert-this](images/Screenshot1.png)
 
 ![movie-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot2.png)
 

@@ -237,3 +237,79 @@ Preview Link From Spotify: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3
 Album : The Hits--Chapter One
 ------------------------------------------------------------
 
+Title: Toy Story
+
+Year: 1995
+
+IMDB Rating: 8.3/10
+
+Rotten Tomatoes Rating: 100%
+
+Country of Production: USA
+
+Language: USA
+
+Plot: A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.
+
+Actors: Tom Hanks, Tim Allen, Don Rickles, Jim Varney
+------------------------------------------------------------
+
+Title: Thirteen
+
+Year: 2003
+
+IMDB Rating: 6.8/10
+
+Rotten Tomatoes Rating: 81%
+
+Country of Production: USA, UK
+
+Language: USA, UK
+
+Plot: A thirteen-year-old girl's relationship with her mother is put to the test as she discovers drugs, sex, and petty crime in the company of her cool but troubled best friend.
+
+Actors: Nikki Reed, Evan Rachel Wood, Vanessa Hudgens, Holly Hunter
+------------------------------------------------------------
+
+Artist: Dave Matthews Band
+
+Song Title : Tripping Billies
+
+Preview Link From Spotify: https://p.scdn.co/mp3-preview/52277db534aad180fd6d2ea607f0c4f1e591bda7?cid=ea0e3cf7b5a14bd5a3433cbc9f8b0239
+
+Album : Crash
+------------------------------------------------------------
+
+Name of Venue: Sprint Center
+
+Venue Location: Kansas City, United States
+
+Date of Event: 07/11/2019
+------------------------------------------------------------
+
+Artist: Backstreet Boys
+
+Song Title : I Want It That Way
+
+Preview Link From Spotify: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=ea0e3cf7b5a14bd5a3433cbc9f8b0239
+
+Album : The Hits--Chapter One
+------------------------------------------------------------
+
+Title: The Matrix
+
+Year: 1999
+
+IMDB Rating: 8.7/10
+
+Rotten Tomatoes Rating: 88%
+
+Country of Production: USA
+
+Language: USA
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+------------------------------------------------------------
+
