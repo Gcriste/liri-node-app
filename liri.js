@@ -10,13 +10,15 @@ var fs = require("fs");
 var content;
 
 
-
+//starts the constructor
 var Input = function () {
 
     var divider = "\n------------------------------------------------------------\n\n"
-    
+
+    //axios api call to bands in town, searches for bands and finds next upcoming show
+    //includes the venue name, location of venue and the date of the event
     this.concertThis = function (band) {
-        var URL = "https://rest.bandsintown.com/artists/" + band + "/events?app_id=codingbootcamp";
+        var URL = "https://rest.bandsintown.com/artists/" + band + "/events?app_id=codingbootcamp&date=upcoming";
         axios.get(URL).then(function (response) {
             var results = response.data[0];
             var date = moment(results.datetime).format("MM/DD/YYYY")
@@ -27,12 +29,14 @@ var Input = function () {
             ].join("\n\n");
             fs.appendFile("log.txt", showData + divider, function (err) {
                 if (err) throw err;
-              });
-              console.log(showData);
+            });
+            console.log(showData);
         });
 
     };
 
+    //spotify api call to find information about a song
+    //Findsd the artist name, song title, preview link from spotify and the album name
     this.spotifySong = function (song) {
         spotify
             .search({ type: 'track', query: song })
@@ -47,8 +51,8 @@ var Input = function () {
                 ].join("\n\n")
                 fs.appendFile("log.txt", showData + divider, function (err) {
                     if (err) throw err;
-                  });
-                  console.log(showData);
+                });
+                console.log(showData);
 
             })
             .catch(function (err) {
@@ -56,6 +60,8 @@ var Input = function () {
             });
     }
 
+    //searches the omdb api to find information about a movie
+    //includes the title, year, imdb rating, rotten tomatoes rating, country, language, plot and actors
     this.movieThis = function (movie) {
         var URL = "http://www.omdbapi.com/?apikey=trilogy&t=" + movie;
         axios.get(URL).then(function (response) {
@@ -75,11 +81,13 @@ var Input = function () {
 
             fs.appendFile("log.txt", showData + divider, function (err) {
                 if (err) throw err;
-              });
-              console.log(showData);
+            });
+            console.log(showData);
         });
     }
 
+
+    //takes information from the 'log.txt' file and uses that to search for movie, song, or band information 
     this.doThis = function () {
         fs.readFile("./random.txt", 'utf8', function read(err, data) {
             if (err) {
@@ -109,18 +117,15 @@ var checkStatus = function () {
                 specifics = "The Sign";
                 input.spotifySong(specifics)
             }
-            console.log("spotify functional")
         };
-
     }
 
-     if (content.includes("concert-this")) {
+    if (content.includes("concert-this")) {
         var command = content.split(",")[0];
         var specifics = content.split(",")[1];
 
         if (command === "concert-this") {
             input.concertThis(specifics)
-            console.log("concert functional")
         };
     }
 
@@ -136,11 +141,11 @@ var checkStatus = function () {
             else if (!specifics) {
                 specifics = "Mr. Nobody"
                 input.movieThis(specifics)
-                console.log("movie functional")
             }
         };
-
     }
 }
+
+//export the constructor input
 module.exports = Input;
 
