@@ -40,15 +40,15 @@ Once the user has input all the data, the app stops.
 
 ![concert-this](images/Screenshot1.png)
 
-![movie-this](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot2.png)
+![movie-this](images/Screenshot2.png)
 
-![spotify-this-song](/Users/griffincriste/Desktop/liri-node-app/images/Screenshot3.png)
+![spotify-this-song](images/Screenshot3.png)
 
-![do-what-it-says](/Users/griffincriste/Desktop/liri-node-app/images/screenshot4.png)
+![do-what-it-says](images/screenshot4.png)
 
-![random txt](/Users/griffincriste/Desktop/liri-node-app/images/screenshot5.png)
+![random txt](images/screenshot5.png)
 
-![log txt](/Users/griffincriste/Desktop/liri-node-app/images/screenshot6.png)
+![log txt](images/screenshot6.png)
 
 
 
